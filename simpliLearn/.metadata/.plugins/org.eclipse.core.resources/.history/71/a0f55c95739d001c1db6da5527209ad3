@@ -1,0 +1,71 @@
+
+ class Person {
+
+	 private String member;
+
+	public String getMember() {
+		return member;
+	}
+
+	public void setMember(String member) {
+		this.member = member;
+	}
+}
+ class Employe extends Person{
+	 
+	 private double annualSal;
+	 private int year;
+	 private String insNum;
+	 
+
+	@Override
+	public String toString() {
+		return "Employee [annualSal=" + annualSal + ", year=" + year + ", insNum=" + insNum + "]";
+	}
+
+	public Employe() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Employe(double annualSal, int year, String insNum) {
+		super();
+		this.annualSal = annualSal;
+		this.year = year;
+		this.insNum = insNum;
+	}
+
+	public double getAnnualSal() {
+		return annualSal;
+	}
+
+	public void setAnnualSal(double annualSal) {
+		this.annualSal = annualSal;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public String getInsNum() {
+		return insNum;
+	}
+
+	public void setInsNum(String insNum) {
+		this.insNum = insNum;
+	}
+ }
+public class TestEmployee{
+	
+	public static void main(String[] args) {
+		
+		Employee e = new Employee();
+		e.setEmpName("Madhavi");
+		System.out.println("Empl:"+e);
+	}
+	
+}

@@ -1,0 +1,14 @@
+
+jsquid:S11974"8Move the array designator from the variable to the type.(û˜¨«ûÿÿÿÿH™RMINORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine5"<This block of commented-out lines of code should be removed.(×‚ÀýÿÿÿÿHšRMAJORZ
+CODE_SMELL
+j
+squid:S1066"9Replace this use of System.out or System.err by a logger.(·Ñ‚•ýÿÿÿÿH›RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HœRMINORZ
+CODE_SMELL
+Zsquid:S14814"(Remove this unused "emp" local variable.(û˜¨«ûÿÿÿÿHRMINORZ
+CODE_SMELL
+isquid:S18544"7Remove this useless assignment to local variable "emp".(û˜¨«ûÿÿÿÿHžRMAJORZ
+CODE_SMELL
